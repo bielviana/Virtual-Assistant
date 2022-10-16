@@ -69,14 +69,14 @@ class VirtualAssist():
             resp = response[random.randint(0, len(response)-1)]
             self.engineSpeak(resp)
 
-        if self.termExist(['coé']):
-            self.engineSpeak('Coé cria! Dá teu papinho')
+        if self.termExist(['qual seu nome?']):
+            self.engineSpeak(f'Meu nome é {self.assist_name}')
 
         # Google
         if self.termExist(['procurar por']):
             pass
 
-assistent = VirtualAssist('jarvis', 'gabriel')
+assistent = VirtualAssist('siri', 'gabriel')
 
 while True:
     voice_data = assistent.recordAudio('Ouvindo...')
