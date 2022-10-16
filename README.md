@@ -20,3 +20,4 @@ PS: If you are going to speak in English, remove the **`lang`** attribute on lin
 - **[Discord Server](https://discord.gg/pVKQ7vzmKE)**
 - **[Instagram](https://instagram.com)**
 - **[Twitter](https://twitter.com/_katiorro)**
+- **[NexusMods](https://www.nexusmods.com/users/73453593)**
