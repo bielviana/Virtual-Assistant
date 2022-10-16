@@ -9,7 +9,7 @@ I was studying about voice commands with python and I did it just for testing.
 
 ## How to use
 ```
-pip install -r scripts\requirements.txt
+pip install -r requirements.txt
 ```
 
 Just say one of the commands and the virtual assistant will respond, as it was just a simple test, I just put the command "Hello" and "What's your name?"
