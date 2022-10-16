@@ -61,7 +61,7 @@ class VirtualAssist():
 
     def respond(self, voice_data):
         #if self.assist_name in voice_data:
-        if self.termExist(['hey', 'oi', 'olá', 'ola']):
+        if self.termExist(['hey', 'oi', 'olá', 'ola', 'hello']):
             response = [
                 f'Olá {self.person}! Em que posso ajudar?',
                 'Oi chefe! Precisa de alguma coisa?',
@@ -69,7 +69,7 @@ class VirtualAssist():
             resp = response[random.randint(0, len(response)-1)]
             self.engineSpeak(resp)
 
-        if self.termExist(['qual seu nome?']):
+        if self.termExist(['qual seu nome?']) or self.termExist(['what is your name?']):
             self.engineSpeak(f'Meu nome é {self.assist_name}')
 
         # Google
