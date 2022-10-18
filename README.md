@@ -4,7 +4,7 @@
 ## What is it?
 A simple virtual assistant with voice command.
 
-## Why did I?
+## Why?
 I was studying about voice commands with python and I did it just for testing.
 
 ## How to use
